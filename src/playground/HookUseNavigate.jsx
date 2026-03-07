@@ -23,15 +23,15 @@ function HookUseNavigate() {
             </button> */}
 
             <div className="flex flex-col justify-center items-center gap-2 min-h-screen">
-                <Link className="style_text font-bold text-xl border-2 border-amber-200 rounded-lg w-40 h-15 flex items-center justify-center bg-amber-200 hover:bg-amber-300" to='/'>
+                <Link className="border border-gray-500 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" to='/'>
                 IR A HOME
                 </Link>
                 <br />
-                <Link className="style_text font-bold text-xl border-2 border-amber-200 rounded-lg w-40 h-15 flex items-center justify-center bg-amber-200 hover:bg-amber-300" to='/saludar'>
+                <Link className="border border-gray-500 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" to='/saludar'>
                     IR A SALUDAR
                 </Link>
                 <br />
-                <Link className="style_text font-bold text-xl border-2 border-amber-200 rounded-lg w-40 h-15 flex items-center justify-center bg-amber-200 hover:bg-amber-300" to='/usestate'>
+                <Link className="border border-gray-500 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded" to='/usestate'>
                     IR A USESTATE
                 </Link>
             </div>
